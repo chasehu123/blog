@@ -19,4 +19,4 @@
 # 配置 GitHub Actions
 
 - [ ] ssh-keygen -f github-deploy-key
-- [ ] ...
+- [ ] 
