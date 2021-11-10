@@ -4,6 +4,8 @@
 
 **[ 2 ]** [Hexo攻略-设置分页与显示文章数](https://blog.csdn.net/qq_39181839/article/details/109477431)
 
+**[ 3 ]** []
+
 
 
 # 零碎步骤
@@ -13,3 +15,8 @@
 - [ ] hexo new page "hello-world-page"
 - [ ] hexo clean
 - [ ] git clone https://github.com/next-theme/hexo-theme-next themes/next
+
+# 配置 GitHub Actions
+
+- [ ] ssh-keygen -f github-deploy-key
+- [ ] 
