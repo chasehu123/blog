@@ -8,6 +8,8 @@
 
 **[ 4 ]** [Hexo博客配置RSS插件](https://www.jianshu.com/p/2aaac7a19736)
 
+**[ 5 ]** [设置 tags 与 categories 页面](https://github.com/chasehu123/blogFiles#%E7%94%9F%E6%88%90-tags--categories-%E9%A1%B5%E9%9D%A2)
+
 # 零碎步骤
 
 - [ ] npm install hexo-deployer-git --save
