@@ -6,7 +6,7 @@
 
 **[ 3 ]** [如何使用 GitHub Actions 自动部署 Hexo 博客](https://juejin.cn/post/6943895271751286821)
 
-
+**[ 4 ]** [Hexo博客配置RSS插件](https://www.jianshu.com/p/2aaac7a19736)
 
 # 零碎步骤
 
@@ -46,3 +46,4 @@
              BRANCH: gh-pages # 分支，填 gh-pages 就行
              PUBLISH_DIR: ./public # 部署 public 目录下的文件
    ```
+
