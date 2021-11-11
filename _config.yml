@@ -110,9 +110,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 # Extensions
+# Feed Atom
 plugins:
   hexo-generator-feed
-#Feed Atom
 feed:
   type: atom
   path: atom.xml

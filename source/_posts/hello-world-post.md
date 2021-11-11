@@ -6,7 +6,6 @@ tags:
   - next
   - blog
 categories: blog_test
-intro: Hexo with NexT 使用测试贴
 ---
 Hexo with NexT 使用测试贴
 <!--more-->
