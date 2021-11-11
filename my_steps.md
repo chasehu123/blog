@@ -4,7 +4,7 @@
 
 **[ 2 ]** [Hexo攻略-设置分页与显示文章数](https://blog.csdn.net/qq_39181839/article/details/109477431)
 
-**[ 3 ]** []
+**[ 3 ]** [如何使用 GitHub Actions 自动部署 Hexo 博客](https://juejin.cn/post/6943895271751286821)
 
 
 
@@ -18,5 +18,31 @@
 
 # 配置 GitHub Actions
 
-- [ ] ssh-keygen -f github-deploy-key
-- [ ] 
+1. 创建一个有 **repo** 和 **workflow** 权限的 [GitHub Token](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fsettings%2Ftokens%2Fnew) 
+
+2. blog source 仓库 -> `settings` -> `Secrets` -> `New repository secret` -> 命名 HEXO_DEPLOY。
+
+3. GitHub Action:
+
+   ```
+   name: deploying Hexo project to GitHub pages
+   on:
+     push:
+       branches:
+         - master # master 分支有 push 行为时就触发这个 action
+   
+   jobs:
+     build-and-deploy:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Checkout
+           uses: actions/checkout@master
+   
+         - name: Build and Deploy
+           uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
+           env:
+             PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
+             PUBLISH_REPOSITORY: chasehu123/chasehu123.github.io # 公共仓库，格式：GitHub 用户名/仓库名
+             BRANCH: gh-pages # 分支，填 gh-pages 就行
+             PUBLISH_DIR: ./public # 部署 public 目录下的文件
+   ```

@@ -109,6 +109,15 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# Extensions
+plugins:
+  hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 deploy:
   type: git
   repository: https://github.com/chasehu123/chasehu123.github.io.git

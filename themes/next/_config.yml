@@ -270,11 +270,24 @@ reward:
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
+# feed:
+#   type: atom
+#   path: /website_diy/atom.xml
+#   limit: 20
+#   hub:
+#   # content:
+#   content_limit: 140
+#   # content_limit_delim: ' '
+#   order_by: -date
+#   # icon: icon.png
+#   icon: /website_diy/favicon.png
+#   autodiscovery: true
+#   # template:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  # Telegram: https://t.me/channel_name || fab fa-telegram
+  WeChat: /website_diy/wechat_channel.jpg || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
