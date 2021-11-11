@@ -142,6 +142,7 @@ symbols_count_time:
 	total_time: true
 
 # 自动生成sitemap
+urlforgoogle: https://chasehu123.github.io/
 sitemap:
 	path: sitemap.xml
 baidusitemap:
