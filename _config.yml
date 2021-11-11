@@ -141,6 +141,13 @@ symbols_count_time:
 	total_symbols: true
 	total_time: true
 
+# 自动生成sitemap
+sitemap:
+	path: sitemap.xml
+baidusitemap:
+	path: baidusitemap.xml
+
+
 deploy:
   type: git
   repository: https://github.com/chasehu123/chasehu123.github.io.git
