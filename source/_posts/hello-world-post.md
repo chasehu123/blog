@@ -6,6 +6,7 @@ tags:
   - next
   - blog
 categories: blog_test
+top: true
 ---
 Hexo with NexT 使用测试贴
 <!--more-->

@@ -4,7 +4,7 @@ date: 2021-11-11 16:39:01
 type: about
 ---
 
-oǒ'boǒntoō
+oǒ\'boǒntoō
 
 Humanity to Others
 
