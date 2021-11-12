@@ -321,12 +321,20 @@ tagcloud:
   orderby: name # Order of tags
   order: 1 # Sort order
 # hexo-tag-cloud
+# tag_cloud:
+#     textFont: Trebuchet MS, Helvetica
+#     textColor: '#333'
+#     textHeight: 25
+#     outlineColor: '#E2E1D1'
+#     maxSpeed: 0.1
+# hexo-tag-cloud
 tag_cloud:
     textFont: Trebuchet MS, Helvetica
     textColor: '#333'
     textHeight: 25
     outlineColor: '#E2E1D1'
     maxSpeed: 0.1
+    pauseOnSelected: true # true 意味着当选中对应 tag 时,停止转动
 # Google Calendar
 # Share your recent schedule to others via calendar page.
 calendar:
@@ -566,7 +574,7 @@ quicklink:
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
   # Custom a time in milliseconds by which the browser must execute prefetching.
-  timeout: 3000
+  timeout: 1500
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
 
