@@ -8,10 +8,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: [step1]checkout
+      - name: one-checkout
         uses: actions/checkout@master
 
-      - name: [step2]build-and-deploy
+      - name: two-build-and-deploy
         uses: theme-keep/hexo-deploy-github-pages-action@master
         env:
           PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }}
